@@ -1,0 +1,30 @@
+.input-container {
+	display: grid;
+	gap: 0.5rem;
+	margin-top: 1.25rem;
+}
+
+.input-container label {
+	font-weight: 600;
+}
+
+.input-row {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.input-row input {
+	min-width: 0;
+	flex: 1;
+	border: 1px solid #94a3b8;
+	border-radius: 0.5rem;
+	padding: 0.65rem 0.75rem;
+	background: #ffffff;
+}
+
+@media (max-width: 30rem) {
+	.input-row {
+		align-items: stretch;
+		flex-direction: column;
+	}
+}

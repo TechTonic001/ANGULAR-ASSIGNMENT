@@ -1,0 +1,7 @@
+A CanActivateChildFn named adminChildGuard that restricts access to child routes.
+
+A CanDeactivateFn named unsavedChangesGuard that triggers a browser confirm() popup.
+
+A CanMatchFn named premiumFeatureGuard that prevents a route from being matched.
+
+A ResolveFn named userDataResolver that simply returns a mock JavaScript object containing dummy data (e.g., { status: 'Paid', amount: 500 }).

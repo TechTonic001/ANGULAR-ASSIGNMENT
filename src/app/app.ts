@@ -1,7 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { ParentComponent } from './parent/parent';
 
 @Component({
   selector: 'app-root',
+  imports: [ParentComponent, RouterOutlet],
   templateUrl: './app.html',
 })
 export class App {

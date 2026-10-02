@@ -1,0 +1,7 @@
+<section class="item-tracker" aria-labelledby="item-tracker-title">
+	<p class="eyebrow">Parent component</p>
+	<h2 id="item-tracker-title">My item tracker</h2>
+	<p>Add an item below. The child component sends it to the parent.</p>
+
+	<app-child (newItemEvent)="logItemToConsole($event)"></app-child>
+</section>

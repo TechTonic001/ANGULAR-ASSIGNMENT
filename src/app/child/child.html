@@ -1,0 +1,10 @@
+<div class="input-container">
+  <label for="new-item">New item</label>
+  <div class="input-row">
+    <input #itemInput id="new-item" type="text" placeholder="Type a new item..."
+      (keyup.enter)="addNewItem(itemInput.value); itemInput.value = ''">
+    <button type="button" (click)="addNewItem(itemInput.value); itemInput.value = ''">
+      Add item
+    </button>
+  </div>
+</div>
